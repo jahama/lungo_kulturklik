@@ -1,0 +1,27 @@
+  <!-- pantall de detalle del terremoto -->
+    <section id="s_detalle_foto" data-transition="slide">
+        <header data-title="Imagen">
+           <nav class="left" >
+                <a href="#back"  data-router="section" data-icon="left"></a>
+            </nav>
+             <nav class="right">
+                <a href="#second" data-router="section" data-icon="share" class="button"></a>
+            </nav>
+        </header>
+
+
+           <article id="detalle_foto" class="active list indented scroll">
+            <ul>
+                <li class="thumb">
+                  <div class='right'>{{upload_date}}</div>
+                  <span class="icon user"></span>
+                  <strong>{{owner_title}}</strong>
+                  <small>{{owner_name}}</small>
+            </li>
+            </ul>
+
+           <div id="foto"> <img src=\"{{photo_file_url}}\"  /></div>
+        </article>
+          
+  </section>    
+    <!-- /pantalla de detalle del terremoto -->
